@@ -27,7 +27,7 @@ $aModule = array(
     'email'         => 'kenmarall@hotmail.com',
 
     'extend'        => array(  
-        \OxidEsales\Eshop\Application\Model\Article::class =>oxidmarketplace\oxmodskeleton\Application\Model\MyModuleArticle::class
+        \OxidEsales\Eshop\Application\Model\Article::class =>oxidmarketplace\oxmodskeleton\Application\Model\ModelExtArticle::class
         )
 
     'controllers'   => array(),
