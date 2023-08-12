@@ -26,7 +26,8 @@ $aModule = array(
     'url'           => 'https://github.com/OxidMarketplace',
     'email'         => 'kenmarall@hotmail.com',
 
-    'extend'        => array(),
+    'extend'        => array(  
+        \OxidEsales\Eshop\Application\Model\Article::class =>    MyVendor\MyModuleNamespace\Application\Model\MyModuleArticle::class),
 
     'controllers'   => array(),
     
