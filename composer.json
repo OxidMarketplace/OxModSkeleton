@@ -1,1 +1,34 @@
-
+{
+    "name":        "oxidmarketplace/oxmodskeleton",
+    "description": "Oxid Module Skeleton",
+    "type":        "oxideshop-module",
+    "keywords":    [
+        "oxid",
+        "modules",
+        "eShop",
+        "skeleton",
+        "marketplace",
+        ""
+    ],
+    "homepage":    "https://www.oxid-esales.com/en/home.html",
+    "license": "GPL-3.0-only",
+    "authors":     [
+        {
+            "name":  "OXID eSales AG & digidesk - media solutions",
+            "email": "info@oxid-esales.com"
+        }
+    ],
+    "extra":       {
+        "oxideshop": {
+            "target-directory": "oxidmarketplace/oxmodskeleton"
+        }
+    },
+    "require":     {
+        "php": ">=5.6"
+    },
+    "autoload":    {
+        "psr-4": {
+            "OxidmMarketplace\\OxModSkeleton\\": "../../../source/modules/oxidmarketplace/oxmodskeleton"
+        }
+    }
+}
