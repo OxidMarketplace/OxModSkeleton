@@ -1,9 +1,9 @@
 <?php
  # Example for module with own namespace
 
- namespace MyVendor\MyModuleNamespace\Application\Model;
+ namespace oxidmarketplace\oxmodskeleton\Application\Model;
 
- class MyModuleArticle extends MyModuleArticle_parent
+ class ModelExtArticle extends ModelExtArticle_parent
  {
      public function getSize()
      {
