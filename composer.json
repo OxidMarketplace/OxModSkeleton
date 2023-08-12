@@ -28,7 +28,7 @@
     },
     "autoload":    {
         "psr-4": {
-            "OxidmMarketplace\\OxModSkeleton\\": "../../../source/modules/oxidmarketplace/oxmodskeleton"
+            "OxidMarketplace\\OxModSkeleton\\": "../../../source/modules/oxidmarketplace/oxmodskeleton"
         }
     }
 }
